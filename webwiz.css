@@ -1,0 +1,114 @@
+
+.nav {
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    padding: 0.5px;
+    
+}
+.net {
+    /* backgroung color of whole body */
+    background-color: rgba(110, 110, 110, 0.658);
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.nav ul{
+    overflow: auto;
+    
+}
+.navlist {
+    font-size: 19px;
+    list-style: none;   
+    text-decoration: none;
+    float: left;
+    padding: 3px 10px;
+    color: azure;
+}
+.nav div{
+    float: right;
+}
+.nav input {
+    padding: 5px 10px;
+    translate: -50px -3px;
+    border: 1px;
+    border-radius: 5px;
+    height: 21px;
+}
+.search {
+    height: 24px;
+    translate: -80px 3.5px;
+    border-radius: 2px;
+    background-color: transparent;
+}
+.navlist :hover {
+    font-size: 25px;
+    translate: 0px -5px;
+    /* text color whhile hovering */
+    color: rgb(0, 0, 255);
+}
+.heading {
+    text-align: center;
+}
+.logo {
+    translate: 900px 0px;
+
+    height: 450px;
+}
+.para {
+    translate: 30px -450px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.welcome {
+    
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.header {
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.BG {
+
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.main{
+    translate: 100px -400px;
+    font-size: 20px;
+    font-family: ROBO;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+.footer {
+    translate: 0px -250px;
+    font-weight: bold;
+    
+}
+.dline {
+    translate: 0px -250px;
+}
+.time {
+    
+    font-size: 26.7px;
+
+}
+#clock{
+    color: rgb(0, 0, 0);
+    translate: 0px -240px;
+    font-size: 27px;
+}
+#date{
+    translate: 0px -35px;
+}
+
+
+
+
